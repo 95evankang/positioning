@@ -145,16 +145,25 @@ footer {
   
 /* font awesome flexbox social media rules end here */
 
-/* Flexible image rules start here */
-/* Pays attention to the container but doesnt go past it */
-.flexible{
-    width:100%;
-    margin:auto;
+/* flexible image rules start here */
+ 
+/*
+img.flexible{
+   width:100%;
 }
-
-
-
-/* Flexible image rules end  here */
+*/
+ 
+.flexible img{
+    width:100%;
+ }
+  
+ .flexible{
+    display: flex;
+    justify-content: space-evenly;
+ }
+  
+ /* flexible image rules end here */
+ 
 
 /* Responsive rules */
 
